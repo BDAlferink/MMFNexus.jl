@@ -2,9 +2,9 @@
 CurrentModule = MMFNEXUS
 ```
 
-# MMF NEXUS
+# MMF Nexus
 
-Documentation for [MMFNEXUS](https://github.com/BDAlferink/MMFNexus.jl).
+Documentation for [MMFNexus](https://github.com/BDAlferink/MMFNexus.jl).
 
 
 This is the Julia implementation for the NEXUS+ algorithm. More information and standalone application can be found on our website in the future.
