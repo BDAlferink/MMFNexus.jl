@@ -1,12 +1,12 @@
-# MMFNEXUS
+# MMFNexus
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://BDAlferink.github.io/MMFNEXUS.jl/stable/)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://BDAlferink.github.io/MMFNEXUS.jl/dev/)
-[![Build Status](https://github.com/BDAlferink/MMFNEXUS.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/BDAlferink/MMFNEXUS.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/BDAlferink/MMFNEXUS.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/BDAlferink/MMFNEXUS.jl)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://BDAlferink.github.io/MMFNexus.jl/stable/)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://BDAlferink.github.io/MMFNexus.jl/dev/)
+[![Build Status](https://github.com/BDAlferink/MMFNexus.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/BDAlferink/MMFNexus.jl/actions/workflows/CI.yml?query=branch%3Amain)
+[![Coverage](https://codecov.io/gh/BDAlferink/MMFNexus.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/BDAlferink/MMFNexus.jl)
 
 
-Documentation for [MMFNEXUS](https://github.com/BDAlferink/MMFNexus.jl).
+Documentation for [MMFNexus](https://github.com/BDAlferink/MMFNexus.jl).
 
 This is the Julia implementation for the NEXUS+ algorithm. 
 
@@ -38,7 +38,7 @@ The basic usage of the NEXUS+ routine requires a density field with non-zero val
 Given the normalized density field (`densityField`), we identify the cosmic web environments as follows:
 
 ```julia
-using MMFNEXUS
+using MMFNexus
 
 # field and box parameters (example from the reconstruction of the illustris-3 box sampled at 256^3)
 N = 256 # number of gridpoints per dimension
