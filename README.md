@@ -6,7 +6,7 @@
 [![Coverage](https://codecov.io/gh/BDAlferink/MMFNEXUS.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/BDAlferink/MMFNEXUS.jl)
 
 
-Documentation for [MMFNEXUS](https://github.com/BDAlferink/MMFNEXUS.jl).
+Documentation for [MMFNEXUS](https://github.com/BDAlferink/MMFNexus.jl).
 
 This is the Julia implementation for the NEXUS+ algorithm. 
 
@@ -17,18 +17,18 @@ This is the Julia implementation for the NEXUS+ algorithm.
 The Multiscale Morphology Filter (MMF) NEXUS can be installed with the Julia package manager. From the Pkg Repl mode run (accessed by `]`):
 
 ```julia
-pkg> add MMFNEXUS
+pkg> add MMFNexus
 ```
 
 Or, equivalently, via the `Pkg` API:
 
 ```julia
-julia> using Pkg; Pkg.add("MMFNEXUS")
+julia> using Pkg; Pkg.add("MMFNexus")
 ```
 
 if it is not available in the registery yet, use the following instead.
 ```julia
-julia> using Pkg; Pkg.add(url="https://github.com/BDAlferink/MMFNEXUS.jl")
+julia> using Pkg; Pkg.add(url="https://github.com/BDAlferink/MMFNexus.jl")
 ```
 
 ## Usage
