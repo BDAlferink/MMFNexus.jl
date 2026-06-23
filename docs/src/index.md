@@ -1,5 +1,5 @@
 ```@meta
-CurrentModule = MMFNEXUS
+CurrentModule = MMFNexus
 ```
 
 # MMF Nexus
@@ -35,7 +35,7 @@ The basic usage of the NEXUS+ routine requires a density field with non-zero val
 Given the normalized density field (`densityField`), we identify the cosmic web environments as follows:
 
 ```julia
-using MMFNEXUS
+using MMFNexus
 
 # field and box parameters (example from the reconstruction of the illustris-3 box sampled at 256^3)
 N = 256 # number of gridpoints per dimension
