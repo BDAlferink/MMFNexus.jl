@@ -8,7 +8,7 @@ makedocs(;
     authors="Bram D. Alferink <bramalferink@gmail.com> and contributors",
     sitename="MMFNEXUS.jl",
     format=Documenter.HTML(;
-        canonical="https://BDAlferink.github.io/MMFNEXUS.jl",
+        canonical="https://BDAlferink.github.io/MMFNexus.jl",
         edit_link="main",
         assets=String[],
     ),
