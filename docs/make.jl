@@ -23,7 +23,7 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/BDAlferink/MMFNEXUS.jl",
+    repo="github.com/BDAlferink/MMFNexus.jl",
     push_preview = true, # not sure why, if problems, check out
     devbranch="main",
 )
