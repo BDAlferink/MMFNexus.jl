@@ -1,5 +1,5 @@
 ```@meta
-CurrentModule = MMFNexus
+CurrentModule = MMFNEXUS
 ```
 
 # Tutorial
