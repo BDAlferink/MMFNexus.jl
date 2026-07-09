@@ -1,12 +1,12 @@
-using MMFNEXUS
+using MMFNexus
 using Documenter
 
-DocMeta.setdocmeta!(MMFNEXUS, :DocTestSetup, :(using MMFNEXUS); recursive=true)
+DocMeta.setdocmeta!(MMFNexus, :DocTestSetup, :(using MMFNexus); recursive=true)
 
 makedocs(;
-    modules=[MMFNEXUS],
+    modules=[MMFNexus],
     authors="Bram D. Alferink <bramalferink@gmail.com> and contributors",
-    sitename="MMFNEXUS.jl",
+    sitename="MMFNexus.jl",
     format=Documenter.HTML(;
         canonical="https://BDAlferink.github.io/MMFNexus.jl",
         edit_link="main",
